@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>SoundCloud Player</title>
+    <link rel='stylesheet' href='styles/semantic.min.css'>
+    <link rel='stylesheet' href='styles/main.css'>
+
+</head>
+
+<body id="soundcloud-player">
+
+
+
+<div class="ui container col">
+    
+    <div class="col-left js-playlist">
+
+    </div>
+    <div class="col-right">
+        
+        <div class="main">
+            <div class="header">
+                <img src="https://media.giphy.com/media/124U9WZtJgI9pe/giphy.gif" height="150" width="800">
+            </div>
+            <div class="ui massive icon input">
+                <input type="text" placeholder="Search for a song or artist..." class="js-search input-search">
+                <i class="search icon js-submit"></i>
+            </div>
+
+            <div class = "reset-ui">
+                <a href="#" class= "clear-results">Clear Results</a>
+                <a href="#" class= "reset-playlist">Reset Playlist</a>
+                
+        
+            </div>
+
+            <div class="search-results js-search-results ui cards">
+                
+        
+            </div>
+
+            
+            
+
+        </div>
+
+        <div><hr style="height:2px;border:none;color:#333;background-color:#333;" /></div>
+
+
+        <div class="footer">
+            <a target="_blank" href="https://developers.soundcloud.com/docs/api/guide">Built using SoundClound API</a>
+            <br>
+            <a target="_blank" href="https://www.linkedin.com/in/karan-ratanpal-93027920/">by Karan Ratanpal</a>
+        </div>
+    </div>
+</div>
+
+<script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+<script src='javascript/semantic.min.js'></script>
+<script src="javascript/main.js"></script>
+
+</body>
+</html>

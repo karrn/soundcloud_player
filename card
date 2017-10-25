@@ -1,0 +1,17 @@
+                <!-- Begin Card -->
+                <div class="card">
+                   <div class="image">
+                       <img src="https://placekitten.com/290/290" alt="" class="image_img">
+                   </div>
+
+                   <div class="content">
+                       <div class="header">
+                           <a href="#" target="_blank">Science Vs. Romance</a>
+                       </div>
+                   </div>
+                   <div class="ui bottom attached button js-button">
+                       <i class="add icon"></i>
+                       <span>Add to playlist</span>
+                   </div>
+                </div>
+                <!-- End Card -->
