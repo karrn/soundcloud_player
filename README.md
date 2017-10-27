@@ -5,3 +5,7 @@ This is a JavaScript based app that can be used play music from SoundClound and 
 APIs used
 -------------
   - [SoundClound API](https://developers.soundcloud.com/docs/api/guide)
+
+
+
+[View Demo](https://soundcloudapi.herokuapp.com/)
